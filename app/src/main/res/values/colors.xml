@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="verde_android">#1DE9B6</color>
+    <color name="azul_bonito">#303F9F</color>
+
+    <color name="naranja">#E65100</color>
+    <color name="plata">#757575</color>
+
+    <color name="actionBar"> #3b3e4b</color>
+
+</resources>

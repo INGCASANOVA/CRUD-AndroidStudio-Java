@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_margin="15dp"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/lblNombres"
+        android:text="Nombre:"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:id="@+id/nombres"
+        android:text="xxx"
+        android:textSize="20sp"
+        android:paddingLeft="5dp"
+        android:layout_toRightOf="@id/lblNombres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/lblAltura"
+        android:text="Altura:"
+        android:textSize="20sp"
+        android:layout_below="@id/lblNombres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:id="@+id/altura"
+        android:text="111 1234 123"
+        android:textSize="20sp"
+        android:paddingLeft="5dp"
+        android:layout_toRightOf="@id/lblAltura"
+        android:layout_below="@id/lblNombres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/lblpeso"
+        android:text="Peso:"
+        android:textSize="20sp"
+        android:layout_below="@id/lblAltura"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:id="@+id/peso"
+        android:text="73 kg "
+        android:textSize="20sp"
+        android:paddingLeft="5dp"
+        android:layout_toRightOf="@id/lblpeso"
+        android:layout_below="@id/lblAltura"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/lblfechacap"
+        android:text="Fecha Captura:"
+        android:textSize="20sp"
+        android:layout_below="@id/lblpeso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:id="@+id/fechacaptura"
+        android:text="20/07/2024 "
+        android:textSize="20sp"
+        android:paddingLeft="5dp"
+        android:layout_toRightOf="@id/lblfechacap"
+        android:layout_below="@id/lblpeso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"/>
+
+
+</RelativeLayout>

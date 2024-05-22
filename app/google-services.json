@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "766865301898",
+    "project_id": "login-registerdb-653dc",
+    "storage_bucket": "login-registerdb-653dc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:766865301898:android:d3b561251a64c9afad2873",
+        "android_client_info": {
+          "package_name": "com.example.mrhealth"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2YLSuGyLDI99-DI2JBpFSD7hJOSqQ0j4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

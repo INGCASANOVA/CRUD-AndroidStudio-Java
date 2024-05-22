@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/icon_add"
+        android:icon="@drawable/agregar"
+        android:title="Agregar"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/icon_save"
+        android:icon="@drawable/guardar"
+        android:title="Guardar"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/icon_delate"
+        android:icon="@drawable/delate"
+        android:title="Eliminar"
+        app:showAsAction="always"/>
+</menu>
